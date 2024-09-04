@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(117, 222, 222);
+    color: rgb(45, 43, 43);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin: 0;
+}
+h1{
+    font-size: 4em;
+}
+.choice {
+    font-size: 5em;
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    border-radius: 250px;
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: aqua;
+}
+.choice:hover{
+    background-color: rgb(1, 153, 153);
+}
+
+#player, #computer{
+    font-size: 2.5em;
+    margin: 5px;
+}
+#result{
+    font-size: 5em;
+    margin: 5px;
+}
+#playerScore, #computerScore{
+    font-size: 1.5em;
+    margin: 3px;
+}
+.win{
+    color: green;
+}
+.lose{
+    color:red;
+}
